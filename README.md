@@ -24,7 +24,7 @@ cd crypto-telegram-bot
 ```
 
 2. **Set up your API keys:**
-- Replace `YOUR_TELEGRAM_BOT_TOKEN` in `main()` with your **Telegram Bot Token**.
+- Replace `YOUR_TELEGRAM_BOT_TOKEN` in `main()` with your **Bale Bot Token**.
 - Replace `YOUR_API_KEY` in `analyze_with_chatgpt()` with your **OpenAI API Key**.
 
 3. **Run the bot:**
