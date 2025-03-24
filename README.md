@@ -63,6 +63,6 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ---
 ### 🚀 Developed by **[Peyman Daei Rezaei]**
-💻 GitHub: [your-username](https://github.com/Peyman20122)  
+💻 GitHub: [Peyman20122](https://github.com/Peyman20122)  
 📧 Email: peimandaii2012@gmail.com
 
