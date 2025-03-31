@@ -108,7 +108,7 @@ def button(bot, update):
         image_path = plot_bitcoin_price()
         bot.send_photo(chat_id=query.message.chat_id,message_id=query.message.message_id, photo=open(image_path, 'rb'),caption='نمودار قیمت بیت‌کوین در ۳ ماه گذشته')
 def main():
-    Token = '423932490:9cdUx3MAUVBGWmkv4TIqrx2O8KTtNCV5f4g5o5kY'
+    Token = 'TOKEN'
     updater = Updater(token=Token, base_url="https://tapi.bale.ai/bot")
 
     dp = updater.dispatcher
