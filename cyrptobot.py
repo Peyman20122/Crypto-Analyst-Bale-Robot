@@ -5,7 +5,7 @@ from time import sleep
 from telegram.ext import Updater,CommandHandler,CallbackQueryHandler,Filters, ConversationHandler,MessageHandler
 from telegram import InlineKeyboardButton,InlineKeyboardMarkup,Bot
 import matplotlib.pyplot as plt
-import openai
+from openai import OpenAI
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
