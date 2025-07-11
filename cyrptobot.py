@@ -13,8 +13,10 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 logger = logging.getLogger(__name__)
 
 def get_bitcoin_price():
-    response = requests.get('https://api.coinbase.com/v2/prices/buy?currency=USD')
-    price = float(response.json().get('data', {}).get('amount'))
+    df = yf.download('BTC-USD', period='3mo')
+    price = list(df.Close.iloc[::-1].iloc[0])[0]
+    # response = requests.get('https://api.coinbase.com/v2/prices/buy?currency=USD')
+    # price = float(response.json().get('data', {}).get('amount'))
     return price
 
 def button_start():
