@@ -63,8 +63,8 @@ def plot_bitcoin_price():
 
 def analyze_with_chatgpt():
     client = OpenAI(
-        api_key='tpsg****************Y',
-        base_url="https://api.tapsage.com/openai/v1"
+        api_key='****************',
+        base_url="https://api.gapapi.com/v1"
     )
     df = yf.download('BTC-USD', period='3mo')
 
@@ -86,10 +86,9 @@ def analyze_with_chatgpt():
     لطفاً توضیح دهید که این تغییرات چه معنایی دارند، آیا روند صعودی یا نزولی است، و چه عواملی ممکن است در این تغییرات مؤثر بوده باشند.
     """
     response = client.chat.completions.create(
-        model="gpt-4.1-mini",
+        model="qwen3.8-flash",
         messages=[
             {"role": "user", "content": prompt}],
-        max_tokens=30000,
         temperature=0.1
     )
 
