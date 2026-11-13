@@ -46,7 +46,7 @@ python bot.py
 
 ##  Troubleshooting
 If you get an error like `quota exceeded`, make sure you have a **valid OpenAI API key** with available credits. You can check your usage at:
-[OpenAI Usage Dashboard](https://platform.openai.com/account/usage)
+  [OpenAI Usage Dashboard](https://platform.openai.com/account/usage)
 
 For connection issues with **Yahoo Finance**, try changing:
 ```python
